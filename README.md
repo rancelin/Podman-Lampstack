@@ -1,4 +1,4 @@
-# Podman-Lmppstack
+# Podman Lmpp Stack
 Trying to setup a complete rootless Lmpp (Linux MariaDB PHP phpMyAdmin) Stack on Podman for web development purposes
 
 *Note: I am new to Podman and containers in general, I haven't tried to compose or build images yet. This is still a work in progress.*
