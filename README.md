@@ -1,5 +1,5 @@
 # Podman Lmpp Stack
-Trying to setup a complete rootless Lmpp (Linux MariaDB PHP phpMyAdmin) Stack on Podman for web development purposes
+Trying to setup a completely rootless Lmpp (Linux MariaDB PHP phpMyAdmin) Stack on Podman for web development purposes
 
 *Note: I am new to Podman and containers in general, I haven't tried to compose or build images yet. This is still a work in progress.*
 
@@ -57,7 +57,7 @@ In case something wrong happened and/or you want to remove the pod and its conta
 > Shows all the existing pods. Helps you check if the pod has been correctly removed.
 
 `podman ps --pod`
-> Shows all the currently running containers in a pod. Help you check if all the containers have been correctly stopped.
+> Shows all the currently running containers in a pod. Helps you check if all the containers have been correctly stopped.
 
 `podman rm -f <container_id>`
 > Forcefully stops and removes a container. It should not be needed since `podman pod rm lmpp-stack` should have removed the containers as well.
