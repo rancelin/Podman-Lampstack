@@ -115,7 +115,7 @@ podman pod list
 ```fish copy
 podman ps --pod
 ```
-> Shows all the currently running containers in a pod. Helps you check if all the containers have been correctly stopped.
+> Shows all the containers currently running in a pod. Helps you check if all the containers have been correctly stopped.
 
 &nbsp;
 
