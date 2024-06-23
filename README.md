@@ -3,7 +3,7 @@ Trying to setup a completely rootless Lmpp (Linux MariaDB PHP phpMyAdmin) Stack 
 
 *Note: I am new to Podman and containers in general, I haven't tried to compose or build images yet. This is still a work in progress.*
 
-## *V0.1*
+## *V0.2*
 
 ### 1. Install [Podman](https://podman.io/)
 
