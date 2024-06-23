@@ -16,7 +16,7 @@ Trying to setup a completely rootless Lmpp (Linux MariaDB PHP phpMyAdmin) Stack 
 ### 3. Open your shell in the root folder of your project and type the following commands
 
 ```fish copy
-podman pod create --name lmpp-stack --publish 8000:8000 --publish 80:8080 --publish 3306:3306
+podman pod create --name lmpp-stack --publish 8000:8000 --publish 8080:80 --publish 3306:3306
 ```
 > Creates a pod and opens the ports to listen to PHP, phpMyAdmin and MariaDB.
 
